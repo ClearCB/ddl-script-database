@@ -1,0 +1,1 @@
+-- Script to create and use a database. And create all the tables needed.

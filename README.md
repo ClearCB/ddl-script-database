@@ -64,7 +64,6 @@ Finding the name of the doctor that has an appoitnment with the patient Juan.
 
 ![query two](./doc/query_two.png)
 
-
 ----
 
 ## Updating
@@ -73,22 +72,21 @@ Finding the name of the doctor that has an appoitnment with the patient Juan.
 
 We also created a model to update the data and the relations, in case you think it is not correct and you want to make it look better.
 
-You can modify it:
+You can [modify](./scripts/updating.sql) it:
 
 ![update relation](./doc/update_relation.png)
 
-You can add data:
+You can [add](./scripts/updating.sql) data:
 
 ![add relation](./doc/add_relation.png)
 
-Or you can remove relation:
+Or you can [remove](./scripts/updating.sql) relation:
 
 ![remove relation](./doc/remove_relation.png)
 
-or modify the records of the tables
+or [modify](./scripts/updating.sql) the records of the tables
 
 ![update](./doc/update_database.png)
-
 
 ----
 

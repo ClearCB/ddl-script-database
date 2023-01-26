@@ -82,6 +82,9 @@ Or you can remove relation:
 
 ![remove relation](./doc/remove_relation.png)
 
+or modify the records of the tables
+
+![update](./doc/update_database.png)
 
 
 ----

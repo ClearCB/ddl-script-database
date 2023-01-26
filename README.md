@@ -4,6 +4,8 @@ This is a repository to create an script that creates, modify and delete all the
 
 This is an assignment for class.
 
+----
+
 ## Relational Diagram
 
 First, we created a relational diagram which will be our model to create our database using MARIADB, that is a DataBaseManagmentSystem open source, based in relational databases.
@@ -18,7 +20,11 @@ We decided to create a database with 5 relations:
 
 ![relation_diagram](./doc/ASSI06.drawio.png)
 
+----
+
 ## Creating a database
+
+----
 
 To start using MariaDB, we have to install MariaDB and run it.D
 
@@ -30,13 +36,21 @@ Then we will start using our SQL scripts [to create tables and database](./scrip
 
 This will show after you copy paste the script.
 
+----
+
 ## Inserting data
+
+----
 
 Now that we have our database, just do the same we did with the previous script to [insert some data](./scripts/dml.sql) and start working with it.
 
 ![insert data](./doc/insert_data.png)
 
+----
+
 ## Querying
+
+----
 
 We have created some models of queries (link al scripts) we though it was interesting to think about, but are free to manipulate our database as you want
 
@@ -46,7 +60,11 @@ We have created some models of queries (link al scripts) we though it was intere
 
 ![query one](./doc/query_one.png)
 
+----
+
 ## Updating
+
+----
 
 We also created a model to update the data and the relations, in case you think it is not correct and you want to make it look better.
 
@@ -62,12 +80,20 @@ Or you can remove relation:
 
 ![remove relation](./doc/remove_relation.png)
 
+----
+
 ## Conclusion
+
+----
 
 Finally, after all your work is done, (do not forget to save your scripts in case you need this db in the future) we also made some scripts to delete all the date stored in, and make it like if never existed. We divided it in an specific order so everythin will work:
 
 * [Destroy all data](./scripts/delete.sql)
 * [Destroy all relations](./scripts/drop.sql)
+
+It is important to execute the script in that orther, because the constraints at the database are set so we cannot remove information where it is being referenced for other table.
+
+Other way, the data has to be inserted at the same orther, because we need the information of the referenced table to the referencing relations.
 
 In case you want to make it at the same time, we also provided you the script to make it:
 

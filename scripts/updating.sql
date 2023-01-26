@@ -10,3 +10,5 @@ ALTER TABLE [table_name] RENAME [column_name] [old_name] to [new_name];
 ALTER TABLE [table_name] MODIFY [column_name] [datatype];
 -- Drop an existing column
 DROP TABLE [table_name] drop [column_name];
+--Update a record in a relation
+UPDATE [table_name] SET [column_name]= value, [column_name]= value WHERE [condition];

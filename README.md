@@ -125,4 +125,4 @@ Find the name of the patient that is located in plant and has an appointment at 
 
 Find the oldest patient that has an appointment with the doctor from the specialization "Emergency".
 
-![soltres](./doc/sol_)
+![soltres](./doc/soltres.png)

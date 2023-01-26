@@ -102,3 +102,29 @@ Other way, the data has to be inserted at the same orther, because we need the i
 In case you want to make it at the same time, we also provided you the script to make it:
 
 * [Destroy ALL!](./scripts/finish.sql) (WARNING, this script will erase all your database)
+
+----
+
+## Bonus exercises
+
+----
+
+Now that you have all the necessary to work with a database. We will propose to you to solve the following exercises. You have the solution and the display that we are looking for.
+
+### Exercise 1
+
+Find the doctor that has an appointment with the patient called "Cesar".
+
+![soluno](./doc/sol_uno.png)
+
+### Exercise 2
+
+Find the name of the patient that is located in plant and has an appointment at room 2 cause of a broken leg.
+
+![soldos](./doc/sol_dos.png)
+
+### Exercise 3
+
+Find the oldest patient that has an appointment with the doctor from the specialization "Emergency".
+
+![soltres](./doc/soltres.png)

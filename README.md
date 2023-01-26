@@ -56,11 +56,14 @@ Now that we have our database, just do the same we did with the previous script 
 
 We have created some models of queries (link al scripts) we though it was interesting to think about, but are free to manipulate our database as you want
 
+Finding the name of the doctor that has an appoitnment with the patient Cesar.
+
 ![query one](./doc/query_one.png)
+
+Finding the name of the doctor that has an appoitnment with the patient Juan.
 
 ![query two](./doc/query_two.png)
 
-![query one](./doc/query_one.png)
 
 ----
 
@@ -126,3 +129,5 @@ Find the name of the patient that is located in plant and has an appointment at 
 Find the oldest patient that has an appointment with the doctor from the specialization "Emergency".
 
 ![soltres](./doc/soltres.png)
+
+[solutions](./scripts/solutions.sql)

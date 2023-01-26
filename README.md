@@ -2,7 +2,7 @@
 
 This is a repository to create an script that creates, modify and delete all the information present in a database from an hospital.
 
-This is an assignment for class.
+This is an assignment for class. In collaboration with [Gema Marquinez](https://github.com/gmarquinez)
 
 ----
 
@@ -54,7 +54,7 @@ Now that we have our database, just do the same we did with the previous script 
 
 ----
 
-We have created some models of queries (link al scripts) we though it was interesting to think about, but are free to manipulate our database as you want
+We have created some models of [queries](./scripts/queries.sql) and some [exercise](#bonus-exercises) we though it was interesting to think about, but are free to manipulate our database as you want
 
 Finding the name of the doctor that has an appoitnment with the patient Cesar.
 
@@ -72,21 +72,23 @@ Finding the name of the doctor that has an appoitnment with the patient Juan.
 
 We also created a model to update the data and the relations, in case you think it is not correct and you want to make it look better.
 
-You can [modify](./scripts/updating.sql) it:
+You can [rename a table](./scripts/updating.sql) it:
 
-![update relation](./doc/update_relation.png)
+![rename relation](./doc/renametable.png)
 
-You can [add](./scripts/updating.sql) data:
+You can [add a new column](./scripts/updating.sql) data:
 
 ![add relation](./doc/add_relation.png)
 
-Or you can [remove](./scripts/updating.sql) relation:
+Or you can [remove column](./scripts/updating.sql) relation:
 
 ![remove relation](./doc/remove_relation.png)
 
 or [modify](./scripts/updating.sql) the records of the tables
 
 ![update](./doc/update_database.png)
+
+Those are some of the posibilities that MariaDB allow us to do, we have shown you some of them but there are a lot. We invite you to see in detail all the different commands that are able to work with.
 
 ----
 

@@ -2,7 +2,7 @@
 
 This is a repository to create an script that creates, modify and delete all the information present in a database from an hospital.
 
-This is an assignment for class. 
+This is an assignment for class.
 
 ## Relational Diagram
 
@@ -20,17 +20,19 @@ We decided to create a database with 5 relations:
 
 ## Creating a database
 
-To start using MariaDB, we have to install MariaDB and run it.
+To start using MariaDB, we have to install MariaDB and run it.D
 
 ![run mariadb](./doc/run_mariadb.png)
 
-Then we will start using our SQL scripts (link a los scripts) to create the database and the tables.
+Then we will start using our SQL scripts [to create tables and database](./scripts/ddl.sql). Just copy and paste this script to start working with your own database.
 
 ![create database](./doc/create_database.png)
 
+This will show after you copy paste the script.
+
 ## Inserting data
 
-Now that we have our database, we will (insert some data[link a los scripts])  to start working with it.
+Now that we have our database, just do the same we did with the previous script to [insert some data](./scripts/dml.sql) and start working with it.
 
 ![insert data](./doc/insert_data.png)
 
@@ -43,7 +45,6 @@ We have created some models of queries (link al scripts) we though it was intere
 ![query two](./doc/query_two.png)
 
 ![query one](./doc/query_one.png)
-
 
 ## Updating
 

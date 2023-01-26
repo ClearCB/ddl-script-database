@@ -59,4 +59,3 @@ INSERT INTO patient (first_name, last_name, birth_date, injure, in_plant) VALUES
 INSERT INTO appointment (appointment_date, doctor_id, patient_id, room_id) VALUES ("2023/02/10", 1,1,1);
 INSERT INTO appointment (appointment_date, doctor_id, patient_id, room_id) VALUES ("2023/01/26", 2,2,2);
 INSERT INTO appointment (appointment_date, doctor_id, patient_id, room_id) VALUES ("2023/03/01", 2,3,2);
-

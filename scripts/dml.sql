@@ -1,7 +1,7 @@
 -- Script to insert some data at your database
-INSERT INTO doctor VALUES (1,"Antonio", "Fernandez", "1970/6/15", "Pediatric", FALSE);
-INSERT INTO doctor VALUES (2,"Maria", "Casas", "1980/3/03", "Emergency", FALSE);
-INSERT INTO doctor VALUES (3,"Sonia", "Marquinez", "2000/06/23", "Cardiology", TRUE);
+INSERT INTO doctor VALUES (1,"Antonio", "Fernandez", "1970/6/15", "Pediatric", TRUE);
+INSERT INTO doctor VALUES (2,"Maria", "Casas", "1980/3/03", "Emergency", TRUE);
+INSERT INTO doctor VALUES (3,"Sonia", "Marquinez", "2000/06/23", "Cardiology", FALSE);
 INSERT INTO area VALUES (1,1,"Pediatric");
 INSERT INTO area VALUES (2,2,"Emergency");
 INSERT INTO area VALUES (3,4,"Cardiology");

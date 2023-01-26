@@ -24,7 +24,7 @@ CREATE TABLE room(
     FOREIGN KEY (area_id) REFERENCES area (id)
 );
 CREATE TABLE patient(
-    id INT NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(20),
     last_name VARCHAR(20),
     birth_date DATE,
@@ -33,7 +33,7 @@ CREATE TABLE patient(
     PRIMARY KEY (id)
 );
 CREATE TABLE appointment(
-    id INT NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT,
     appointment_date DATE,
     doctor_id INT NOT NULL,
     patient_id INT NOT NULL,

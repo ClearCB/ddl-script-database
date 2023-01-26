@@ -30,6 +30,8 @@ To start using MariaDB, we have to install MariaDB and run it.D
 
 ![run mariadb](./doc/run_mariadb.png)
 
+We have created a script that create the database, the tables and insert all the data [here](./scripts/start.sql). But we recommend you to follow this step-by-step so you can easily follow what is happening.
+
 Then we will start using our SQL scripts [to create tables and database](./scripts/ddl.sql). Just copy and paste this script to start working with your own database.
 
 ![create database](./doc/create_database.png)
@@ -82,7 +84,7 @@ Or you can remove relation:
 
 ----
 
-## Conclusion
+## Delete
 
 ----
 

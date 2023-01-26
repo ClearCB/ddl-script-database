@@ -1,4 +1,5 @@
 -- Script to DESTROY all your database.
+USE medicalField;
 DELETE FROM appointment;
 DELETE FROM patient;
 DELETE FROM room;
